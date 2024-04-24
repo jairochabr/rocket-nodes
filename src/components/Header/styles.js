@@ -1,0 +1,30 @@
+import styled from "styled-components";
+
+// HEADER
+
+export const Container = styled.header`
+  grid-area: header;
+
+  height: 105px;
+  width: 100%;
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
+  /* border-bottom: 1px solid ${({ theme }) => theme.COLORS.BACKGROUND_700}; */
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0 80px;
+
+  background: red;
+`;
+
+
+// PROFILE
+
+export const Profile = styled.div`
+  display: flex;
+  align-items: center;
+`;
